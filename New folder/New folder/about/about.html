@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AVON ELECTRICALS</title>
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 821px)" href="responsive.css">
+    <link rel="stylesheet" media="screen and (max-width: 821px)" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Navbar Section -->
+    <nav id="navbar" class="flex s-around bg-color">
+        <div class="left-nav">
+            <h2 class="t-white">AVON ELECTRICALS</h2>
+        </div>
+        <div class="right-nav">
+            <ul class="flex">
+                <li><a href="D:\New folder\New folder\index.html" class="t-white roboto">Home</a></li>
+                <li><a href="D:\New folder\New folder\about\about.html" class="t-white roboto">About</a></li>
+                <li><a href="D:\New folder\New folder\product\product.html" class="t-white roboto">Products</a></li>
+                <li><a href="D:\New folder\New folder\contact\contact.html" class="t-white roboto">Contact</a></li>
+                <li><a href="D:\New folder\New folder\shipping\shipping.html" class="t-white roboto">Shipping</a></li>
+                <li><a href="D:\New folder\New folder\payment\payment.html" class="t-white roboto">Payment</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bottom Navigator -->
+    <section id="bottom">
+        <div class="bottom-nav flex s-center items-center">
+            <ul class="flex s-around items-center">
+                <a href="D:\New folder\New folder\index.html">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-house"></i></li>
+                </a>
+                <a href="D:\New folder\New folder\about\about.html">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-user"></i></li>
+                </a>
+                <a href="D:\New folder\New folder\product\product.html">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-code"></i></li>
+                </a>
+                <a href="D:\New folder\New folder\contact\contact.html">
+                    <li class="bottomo-hover flex s-center items-center">
+                        <i class="fa-solid fa-rocket"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    
+    
+
+    <!-- About Section -->
+    <section id="about">
+        <h1 class="t-center my-2 t-white f-2">KNOW ABOUT AVON ELECTRICALS</h1>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <!-- Here in src replade the given link with your secondary image link -->
+                <img src="data:image/jpeg;base64,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" alt="fdfc" width="55%" height="250">
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    
+                    <p class="t-white poppins">
+                        Welcome to AVON Electricals, your one-stop destination for all your electrical needs! At
+                        A-One Electricals, we pride ourselves on providing high-quality electrical products and 
+                        exceptional customer service to meet the diverse requirements of our valued customers
+                    </p>
+                    <p class="t-white poppins">With a vast and carefully curated selection of electrical components, tools, and
+                        accessories, we aim to be your go-to source for everything electrical. Whether you're a 
+                        professional electrician, a DIY enthusiast, or someone looking to upgrade their Home
+                        or office, we have the right solutions for you.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <!-- Here in src replade the given link with your secondary image link -->
+                <img src="D:\New folder\New folder\avon electicals-logos.jpeg" alt="fdfc" width="55 " height="150">
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    <h1>OUR STORY</h1>
+                    <p class="t-white poppins">
+                        Established with a passion for excellence and a commitment to customer satisfaction, AVON ELECTRICALS has been serving the community since 1989.
+                         Our journey began with a vision to provide top-notch electrical products while delivering exceptional service.
+                    </p>
+                   
+                    
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <!-- Here in src replade the given link with your secondary image link -->
+                <img src="https://jainbazaar.in/uploads/d1bcd13f296811beddf92e48e902af19.jpg" alt="fdfc" width="55" height="150">
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    <h1>OUR MISSION</h1>
+                    <p class="t-white poppins">
+                        At the heart of our mission is the goal to empower our customers with reliable, energy-efficient, and innovative electrical solutions.
+                         We aim to be the go-to destination for individuals, businesses, and professionals seeking quality electrical products and personalized service.
+                    </p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <!-- Here in src replade the given link with your secondary image link -->
+                <img src="https://2.imimg.com/data2/TR/OE/OLFCP-4146792/1149_2011-09-13_6-1000x1000.jpg" alt="fdfc" width="55" height="150">
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    <h1>PRODUCT RANGE</h1>
+                    <p class="t-white poppins">
+                        Explore our extensive product catalog, featuring a wide array of electrical components, lighting solutions, wiring accessories, home automation systems, and much more. We curate our selection from reputable brands to ensure that our customers have access to the latest technology and top-notch quality.
+                    </p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <!-- Here in src replade the given link with your secondary image link -->
+                <img src="https://peekator.com/wp-content/uploads/2022/02/focus_on_2.png" alt="fdfc" width="55" height="120">
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    <h1>CUSTOMER CENTRIC-APPROACH</h1>
+                    <p class="t-white poppins">
+                        Customer satisfaction is at the core of everything we do.
+                         We understand that each customer has unique requirements, 
+                         and we strive to provide tailored solutions that exceed expectations. 
+                        Our responsive customer support team is always ready to assist you with any inquiries or concerns.
+                    </p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <!-- Here in src replade the given link with your secondary image link -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29592.887686398575!2d81.234362!3d22.007059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a29c193e194387f%3A0x40a6a39917f09e1c!2sAvon%20electricals!5e0!3m2!1sen!2sin!4v1706719321786!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    <h1>QUALITY ASSURANCE</h1>
+                    <p class="t-white poppins">
+                        We are committed to delivering products that meet the highest standards of quality and safety.
+                         Every item in our inventory undergoes rigorous testing to ensure durability, reliability,
+                          and compliance with industry standards.
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1>VISIT OUR STORE</h1>
+                    <p class="t-white poppins">
+                        Discover the world of electrical solutions at our physical store located at Sarafa Line, Kawardha, Chhattisgarh 491995. Our friendly and knowledgeable staff is here to assist you in person, offering a hands-on experience with our products.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <!-- Here in src replade the given link with your secondary image link -->
+                
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                   
+                    
+                    
+                </div>
+            </div>
+        </div>
+       
+    </section>
+</div>  
+ <!-- Footer Section -->
+ <div class="footer-section">
+    <div class="footer-item">
+        <h2>Company</h2>
+        <p><a href="D:\New folder\New folder\about\about.html"> About Us</a></p>
+        <p><a href="D:\New folder\New folder\contact\contact.html"> Contact Us</a></p>
+        <p><a href="D:\New folder\New folder\product\product.html"> Our Product</a></p>
+       
+    </div>
+    <div class="footer-item">
+        <h2>Get Help </h2>
+        <p><a href="D:\New folder\New folder\shipping\shipping.html"> Shipping</a></p>
+        <p><a href="D:\New folder\New folder\payment\payment.html">Payment Options</a></p>
+       
+    </div>
+   
+    
+</div>
+
+</body>
+</html>
